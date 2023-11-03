@@ -1,5 +1,7 @@
 body, html {
-    height: 100%;
+  width: 95%;;
+  height: 100%;
+  margin: 0 auto;
 }
 
 /* The hero image */
@@ -64,6 +66,19 @@ body, html {
   width: 100%;
   border-radius: 5px;
   background-color: #ddd;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.register-info p {
+  font-size: 20px;
+  text-align: center;
+}
+
+input {
+  margin: 0 auto;
 }
 
 h2 {
@@ -72,7 +87,7 @@ h2 {
 
 /* Style inputs */
   input[type=text] {
-  width: 100%;
+  width: 75%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -81,22 +96,18 @@ h2 {
   box-sizing: border-box;
 }
 
-/* Style the submit button */
-input[type=submit] {
-  width: 100%;
-  background-color: #7321ad;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
+/* Style the register now button */
+button {
+  width: 20%;
+  color: #7321ad;
   cursor: pointer;
 }
 
-/* Add a background color to the submit button on mouse-over */
-input[type=submit]:hover {
-  background-color: #ddd;
-  color: #7321ad;
+
+/* Add a background color to the register now button on mouse-over */
+button:hover {
+  background-color: #7321ad;
+  color: #ddd;
 }
 
 #map {
@@ -107,10 +118,11 @@ input[type=submit]:hover {
 }
 
 footer {
-  width: 100%;
+  width: 101%;
   height: 45px;
   font-size: 10px ;
   text-align: center;
+  margin-top: 5px;;
   padding-top: 1px;
   padding-bottom: 3px;
   background-color: #7321ad;
